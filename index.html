@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Assignment 3</title>
+</head>
+
+<body>
+    <header style="color: #ffff !important;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #233142 !important;">
+            <div class="container-fluid">
+                <a class="navbar-brand" style="color: #ffff;" href="#">Assignments</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-4">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: #ffff;">Chapter
+                                15-20</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-0" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container text-center">
+            <h4 class="pt-4">Chapter # 15-20|Array:It's Methods & for Loops </h4>
+            <hr>
+            <div class="row mt-3">
+                <div class="col col-6">
+                    <h5>Input</h5>
+                </div>
+                <div class="col col-6">
+                    <h5>Orignal Statement</h5>
+                </div>
+                <div class="col col-6 border border-secondary mt-3">
+                    <div class="input-group mb-3 mt-3">
+                        <input type="text" class="form-control border-secondary" placeholder="Type Your Text Here"
+                            aria-label="Recipient's username" id="input">
+                        <button class="btn btn-outline-secondary " type="button" id="btn-1">Clear</button>
+                    </div>
+
+                </div>
+                <div class="col border border-secondary py-3 ml-2 mt-3 text-center" id="orignal"></div>
+            </div>
+            <div class="row mt-5 text-center">
+
+                <div class="col col-6">
+                    <h5>Buttons</h5>
+                </div>
+                <div class="col col-6">
+                    <h5>Output/Result</h5>
+                </div>
+                <div class="col">
+                    <div class="border border-secondary rounded-3 p-4" id="button">
+
+                        <button type="button" class="btn btn-danger px-5" onclick="simple()"> Simple Alert</button>
+                        <button type="button" class="btn btn-danger px-5" onclick="printName()">Print My Name</button>
+                        <!-- <div class="w-100"></div> -->
+                        <button type="button" class="btn btn-danger m- px-5" onclick="printCity()">Print all
+                            Cites</button>
+                        <button type="button" class="btn btn-danger px-4" onclick="addcity()">Add Your City in
+                            List</button>
+                        <!-- <div class="w-100"></div> -->
+
+                        <button type="button" class="btn btn-danger px-5" onclick="generatetable()">Generate
+                            Table</button>
+                    </div>
+                </div>
+                <div class="col border border-secondary py-3 px-2 ml-2" style="margin-left: 30px;" id="output"></div>
+            </div>
+            <button class="btn btn-outline-secondary " type="button" id="btn-2">Clear Output</button>
+
+        </div>
+    </main>
+    <footer>
+        <p>&copy;2024.Assignment by <span>www.umair.net</span></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Js/script.js"></script>
+</body>
+
+</html>

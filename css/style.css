@@ -1,0 +1,21 @@
+#orignal{
+    margin-left: 20px;
+    color: #ffff;
+     background-color: #233142;
+}
+#button button {
+    margin-bottom: 5px !important;
+    min-width: 45%;
+
+}
+#btn-2{
+    margin-left: 700px; 
+    margin-top: 20px;
+}
+footer{
+    text-align: center;
+    color: #ffff;
+    background-color: #233142;
+    margin-top: 115px;
+    height: 36px;
+}
